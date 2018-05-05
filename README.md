@@ -2,6 +2,9 @@
 Created and dubiously maintained by Samuel Finley
 #app overview
 This is an Amazon-like storefront using MySQL. The app takes in orders from customers and depletes stock from the store's inventory. To run this app type "node app.js" in bash. Don't have bash? get it
+![usage pic](/Screenshot_1.png)
+![usage pic](/Screenshot_2.png)
+![usage pic](/Screenshot_3.png)
 #why it's useful
 we've got more dogs than anyone else for cheaper, and are the only provider of quality namebrand handerson pamtelones.
 #getting help

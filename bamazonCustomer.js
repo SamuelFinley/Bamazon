@@ -6,13 +6,13 @@ const table = require('./table');
 const cli = vorpal;
 module.exports = cli;
 
-let username
-let password
-let connectionDB
-let host
-let port
-let pastCmd
-let pastCnts
+let username;
+let password;
+let connectionDB;
+let host;
+let port;
+let pastCmd;
+let pastCnts;
 
 cli
     .delimiter(cli.chalk['yellow']('sf~$'))
@@ -57,16 +57,16 @@ cli
         if (command === 'disconnect') {
             this.log('have a nice day!')
             connectionDB.end();
-            cli.exec('exit')
+            cli.exec('exit');
             process.exit(0);
         } else if (command === 'purchase') {
             lookup(contents);
         } else if (command === 'commands') {
-            this.log('disconnect : exits app\npurchase <id> : buys an item\nlist : shows items')
+            this.log('disconnect : exits app\npurchase <id> : buys an item\nlist : shows items');
         } else if (command === 'list') {
             start();
         } else {
-            this.log(`Command <${command}> was not recognized`)
+            this.log(`Command <${command}> was not recognized`);
         }
 
         callback()
