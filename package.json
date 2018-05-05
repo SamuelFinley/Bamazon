@@ -1,0 +1,25 @@
+{
+  "name": "Bamazon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamuelFinley/Bamazon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamuelFinley/Bamazon/issues"
+  },
+  "homepage": "https://github.com/SamuelFinley/Bamazon#readme",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "mysql": "^2.15.0",
+    "vorpal": "^1.12.0"
+  }
+}
