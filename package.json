@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/SamuelFinley/Bamazon#readme",
   "dependencies": {
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.11",
     "mysql": "^2.15.0",
     "vorpal": "^1.12.0"
   }
